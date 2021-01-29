@@ -1,0 +1,37 @@
+{
+  "name": "shortshorts",
+  "version": "1.0.0",
+  "description": "investing tool focused on publicly available short information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoryrichens/shortshorts.git"
+  },
+  "author": "Gregory Richens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoryrichens/shortshorts/issues"
+  },
+  "homepage": "https://github.com/gregoryrichens/shortshorts#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
